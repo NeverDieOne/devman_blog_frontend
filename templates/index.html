@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +9,7 @@
   <title>Sensive Blog - Home</title>
   <link rel="icon" href="../static/img/favicon.png" type="image/png">
 
-  <link rel="stylesheet" href="../static/styles.min.css">
+  <link rel="stylesheet" href="{% static 'styles.min.css' %}">
 </head>
 <body>
   <!--================Header Menu Area =================-->
@@ -34,15 +36,15 @@
               <li><a href="#"><i class="ti-instagram"></i></a></li>
               <li><a href="#"><i class="ti-skype"></i></a></li>
             </ul>
-          </div> 
+          </div>
         </div>
       </nav>
     </div>
   </header>
   <!--================Header Menu Area =================-->
-  
+
   <main class="site-main">
-    <!--================Hero Banner start =================-->  
+    <!--================Hero Banner start =================-->
     <section class="mb-30px">
       <div class="container">
         <div class="hero-banner">
@@ -54,7 +56,7 @@
         </div>
       </div>
     </section>
-    <!--================Hero Banner end =================-->  
+    <!--================Hero Banner end =================-->
 
     <!--================ Blog slider start =================-->
     <section>
@@ -169,7 +171,7 @@
               </div>
             </div>
 
-            
+
 
             <div class="row">
               <div class="col-lg-12">
@@ -300,6 +302,6 @@
   </footer>
   <!--================ End Footer Area =================-->
 
-  <script src="../static/scripts.js"></script>
+  <script src="{% static 'scripts.js' %}"></script>
 </body>
 </html>

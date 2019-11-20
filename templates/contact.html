@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +10,7 @@
 	<link rel="icon" href="../static/img/favicon.png" type="image/png">
 
 
-  <link rel="stylesheet" href="/home/olga/Desktop/Мои проекты/блог/styles.min.css">
+  <link rel="stylesheet" href="{% static 'styles.min.css' %}">
 </head>
 <body>
   <!--================Header Menu Area =================-->
@@ -202,6 +204,6 @@
   </footer>
   <!--================ End Footer Area =================-->
 
-  <script src="/home/olga/Desktop/Мои проекты/блог/scripts.js"></script>
+  <script src="{% static 'scripts.js' %}"></script>
 </body>
 </html>

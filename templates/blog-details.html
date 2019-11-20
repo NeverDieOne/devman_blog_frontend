@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +9,7 @@
   <title>Remake Barber - Blog Details</title>
 	<link rel="icon" href="../static/img/favicon.png" type="image/png">
 
-  <link rel="stylesheet" href="/home/olga/Desktop/Мои проекты/блог/styles.min.css">
+  <link rel="stylesheet" href="{% static 'styles.min.css' %}">
 </head>
 <body>
   <!--================Header Menu Area =================-->
@@ -256,6 +258,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   </footer>
   <!--================ End Footer Area =================-->
 
-  <script src="/home/olga/Desktop/Мои проекты/блог/scripts.js"></script>
+  <script src="{% static 'scripts.js' %}"></script>
 </body>
 </html>
